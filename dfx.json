@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "eth_metadata": {
+      "candid": "src/eth_metadata/eth_metadata.did",
+      "package": "eth_metadata",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

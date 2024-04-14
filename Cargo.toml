@@ -1,0 +1,7 @@
+[profile.release]
+lto = true
+opt-level = "s"
+
+[workspace]
+resolver = "2"
+members = ["src/eth_metadata"]
